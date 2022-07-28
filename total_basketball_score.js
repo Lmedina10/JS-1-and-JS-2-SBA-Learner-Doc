@@ -11,7 +11,7 @@
 // console.Log(totalBasketballScore(2, 3, 4))
 
 
-const total = 'Total baseball score'
+
 function totalBasketballScore(ft, mr, tp) {
     if (typeof ft === 'number' && typeof mr === 'number' && typeof tp === 'number') {
       return (ft * 1) + (mr * 2) + (tp * 3);
